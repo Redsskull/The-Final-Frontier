@@ -61,6 +61,27 @@ li > a:hover{
     background: url('images/universelogo.jpg') no-repeat top center;
 }
 
+#cover-text {
+    color: black;
+}
+
+#main-text{
+        font-size: 130%;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 4px;
+    
+        width: 300px;
+        height: 200px;
+    
+        
+        padding-left: 10px;
+
+    
+        right: 150px;
+        top: 270px;
+    
+        position: absolute;
+}
 
   
   
