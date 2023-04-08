@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Trispace:wght@200&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -22,7 +22,7 @@ h1 {
 #logo {
     float: left;
     margin: 0 auto;
-  }
+}
 
 
 /* menu*/
@@ -32,23 +32,23 @@ ul {
     list-style: none;
     color: white;
     font-weight: bold;
-    
+
 }
 
 li {
     float: left;
     margin-right: 30px;
     padding-top: 10px;
-    
+
 }
 
-li > a {
+li>a {
     text-decoration: none;
     color: inherit;
     font-size: 20px;
 }
 
-li > a:hover{
+li>a:hover {
     border-bottom: 1px solid white;
 }
 
@@ -56,7 +56,7 @@ li > a:hover{
 /* main image and cover text */
 
 #main-image {
-    height: 600px;
+    height: 550px;
     width: 100%;
     background: url('images/universelogo.jpg') no-repeat top center;
 }
@@ -65,23 +65,61 @@ li > a:hover{
     color: black;
 }
 
-#main-text{
-        font-size: 130%;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 4px;
-    
-        width: 300px;
-        height: 200px;
-    
-        
-        padding-left: 10px;
+#main-text {
+    font-size: 130%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
 
-    
-        right: 150px;
-        top: 270px;
-    
-        position: absolute;
+    width: 300px;
+    height: 200px;
+
+
+    padding-left: 10px;
+
+
+    right: 150px;
+    top: 270px;
+
+    position: absolute;
 }
 
-  
-  
+/* main pictures and text of stars*/
+
+#pistol-container {
+    background: url('images/pistol-star.webp') no-repeat center;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    background-size: cover;
+}
+
+#antares-container {
+    background: url('images/antares.jpg') no-repeat center;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    background-size: cover;
+}
+
+#sirius-container {
+    background: url('images/sirius.jpg') no-repeat center;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    background-size: cover;
+}
+
+#alpha-container {
+    background: url(images/alpha.webp) no-repeat center;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    background-size: cover;
+}
+    
+
+#stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
