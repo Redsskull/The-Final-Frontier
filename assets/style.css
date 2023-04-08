@@ -9,6 +9,8 @@
 body {
     font-family: 'Trispace', sans-serif;
     font-weight: 300;
+    background: linear-gradient(to right, #1b0100, #04070b);
+    margin: 0 auto;
 }
 
 /* heading and logo*/
@@ -122,4 +124,12 @@ li>a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+section h2 {
+         display: flex;
+         justify-content: center;
+         margin-top: 20px;
+         color: white;
+         font-family: 'Trispace', sans-serif;
 }
