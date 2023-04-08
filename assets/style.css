@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Trispace:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Trispace', sans-serif;
+    font-weight: 300;
+}
+
+/* heading and logo*/
+
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+#logo {
+    float: left;
+    margin: 0 auto;
+  }
+
+
+/* menu*/
+
+ul {
+    float: right;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+li {
+    float: left;
+    margin-right: 30px;
+    padding-top: 10px;
+    
+}
+
+li > a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+li > a:hover{
+    border-bottom: 1px solid white;
+}
+
+
+/* main image and cover text */
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url('images/universelogo.jpg') no-repeat top center;
+}
+
+
+  
+  
