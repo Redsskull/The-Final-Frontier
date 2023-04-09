@@ -6,7 +6,7 @@
     border: none;
 }
 
-body {
+#index-body {
     font-family: 'Trispace', sans-serif;
     font-weight: 300;
     background: linear-gradient(to right, #1b0100, #04070b);
@@ -119,7 +119,7 @@ li>a {
     background-size: cover;
 
 }
-
+/* Star pictures and hover text*/
 
 #stars {
     display: flex;
@@ -164,6 +164,8 @@ section h2 {
     opacity: 1;
   }
 
+  /*footer with social medial links*/
+
   footer {
     height: 200px;
     display: flex;
@@ -188,4 +190,13 @@ section h2 {
       padding: 100px;
       color: #9e90b8;
   }
+
+  /*About us body*/
+
+  #about-us {
+    font-family: 'Trispace', sans-serif;
+    font-weight: 300;
+    background-image: url('../images/stars-background.jpg');
+    margin: 0 auto;
+}
  
