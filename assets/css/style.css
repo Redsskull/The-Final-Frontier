@@ -232,12 +232,30 @@ section h2 {
 
   /*comet*/
 
+  #comet {
+    position: absolute;
+    top: 0;
+    right: -100px; 
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/comet.png');
+    background-size: cover;
+    animation: comet 20s linear infinite;
+    z-index: -1;
+  }
   
-
+  @keyframes comet {
+    80% {
+      transform: translateX(0vw) translateY(0);
+    }
+    100% {
+      transform: translateX(-100vw) translateY(100vh);
+    }
+  }
 /*footer*/
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
