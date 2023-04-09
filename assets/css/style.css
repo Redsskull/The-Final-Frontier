@@ -196,7 +196,32 @@ section h2 {
   #about-us {
     font-family: 'Trispace', sans-serif;
     font-weight: 300;
-    background-image: url('../images/stars-background.jpg');
+    background-image: url('../images/star-background.jpg');
     margin: 0 auto;
+    padding-top: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
 }
- 
+
+#about-us h2 {
+    margin-top: 200px;
+  }
+  
+  #about-us p {
+    margin-top: 100px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+section p {
+    color: white;
+}
+  
