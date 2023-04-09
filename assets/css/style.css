@@ -60,7 +60,7 @@ li>a {
 #main-image {
     height: 550px;
     width: 100%;
-    background: url('images/universelogo.jpg') no-repeat top center;
+    background: url('../images/universelogo.jpg') no-repeat top center;
 }
 
 #cover-text {
@@ -88,7 +88,7 @@ li>a {
 /* main pictures and text of stars*/
 
 #pistol-container {
-    background: url('images/pistol-star.webp') no-repeat center;
+    background: url('../images/pistol-star.webp') no-repeat center;
     height: 400px;
     width: 400px;
     margin: 20px;
@@ -96,7 +96,7 @@ li>a {
 }
 
 #antares-container {
-    background: url('images/antares.jpg') no-repeat center;
+    background: url('../images/antares.jpg') no-repeat center;
     height: 400px;
     width: 400px;
     margin: 20px;
@@ -104,7 +104,7 @@ li>a {
 }
 
 #sirius-container {
-    background: url('images/sirius.jpg') no-repeat center;
+    background: url('../images/sirius.jpg') no-repeat center;
     height: 400px;
     width: 400px;
     margin: 20px;
@@ -112,7 +112,7 @@ li>a {
 }
 
 #alpha-container {
-    background: url(images/alpha.webp) no-repeat center;
+    background: url(../images/alpha.webp) no-repeat center;
     height: 400px;
     width: 400px;
     margin: 20px;
