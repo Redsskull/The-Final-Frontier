@@ -208,7 +208,7 @@ section h2 {
 
 /*about us text section*/
 
-#background-text {
+.background-text {
     font-size: 'Roboto', sans-serif;
     background-color:rgba(4,26,55,0.7);
     display: inline-block;
@@ -219,20 +219,20 @@ section h2 {
     border-radius: 60px;
   }
   
-  #background-text h2 {
+  .background-text h2 {
     color: white;
     margin-bottom: 20px;
     margin-top:0;
   }
   
-  #background-text p {
+  .background-text p {
     color: white;
     margin-bottom: 20px;
   }
 
   /*comet*/
 
-  #comet {
+  .comet {
     position: absolute;
     top: 0;
     right: -100px; 
