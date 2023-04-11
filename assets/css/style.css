@@ -209,15 +209,15 @@ section h2 {
 /*about us text section*/
 
 .background-text {
-    font-size: 'Roboto', sans-serif;
-    background-color:rgba(4,26,55,0.7);
-    display: inline-block;
-    margin-top: 200px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 20px;
-    border-radius: 60px;
-  }
+  font-size: 'Roboto', sans-serif;
+  background-color:rgba(4,26,55,0.7);
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  border-radius: 60px;
+}
   
   .background-text h2 {
     color: white;
@@ -311,5 +311,6 @@ input[type="submit"] {
   border-radius: 5px;
   font-size: 1.2rem;
 }
+
 
 
