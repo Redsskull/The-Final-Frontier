@@ -1,58 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="Description" content="Final Frontier a club for those who love space" />
-        <meta name="keywords" content="Final Frontier a club for those who love space">
-    
-        <link rel="stylesheet" href="assets/css/style.css">
-    
-        <title>Final Frontier</title>
-    </head>
-<body>
-    <body id="about-us">
-        <!--moving comet-->
-        <div class="comet"></div>
-        <!--Header-->
-    
-        <header>
-            <a href="index.html">
-                <h1 id="logo">Final Frontier</h1>
-            </a>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html" class="border">Home</a>
-                    </li>
-                    <li>
-                        <a href="about-us.html" class="border">About us</a>
-                    </li>
-                    <li>
-                        <a href="#" class="border">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    
-        <!--text about the club-->
-        <section id="contact">
-            <div class="background-text">
-            <form>
-               <h3>Contact us on:</h3>
-                <labe for="fname">First Name:</labe>
-                <input type="text" id="fname" name="lname">
-                <labe for="lname">Last Name:</labe>
-                <input type="text" id="lname" name="lname">
-                <labe for="email">Your Email:</labe>
-                <input type="email" id="email" name="email">
 
-            </form>
-            </div>
-        </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Final Frontier a club for those who love space" />
+    <meta name="keywords" content="Final Frontier a club for those who love space">
 
-        <!--copy pasted footer-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Final Frontier</title>
+</head>
+
+<body id="contact-us">
+    <!--moving comet-->
+    <div class="comet"></div>
+    <!--Header-->
+
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Final Frontier</h1>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" class="border">Home</a>
+                </li>
+                <li>
+                    <a href="about-us.html" class="border">About us</a>
+                </li>
+                <li>
+                    <a href="#" class="border">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--contact form and opening hours-->
+    <section id="form-section">
+        <div class="form-container">
+        <form>
+            <h3>Contact us on:</h3>
+
+            <labe for="fname" class="contact">First Name:</labe>
+            <input type="text" id="fname" name="fname">
+            <hr>
+            <labe for="lname" class="contact">Last Name:</labe>
+            <input type="text" id="lname" name="lname">
+            <hr>
+
+            <labe for="email" class="contact">Your Email:</labe>
+            <input type="email" id="email" name="email">
+            <hr>
+
+            <labe for="fstar" class="contact">Favorite Star?:</labe>
+            <input type="text" id="fstar" name="fstar">
+            <hr>
+
+            <input type="submit" value="Engage!">
+
+        </form>
+        </div>
+    </section>
+
+    <!--copy pasted footer-->
 
     <footer>
         <ul class="social-networks">
@@ -78,6 +90,7 @@
     <!--font awesome script-->
     <script src="https://kit.fontawesome.com/fece0544f9.js" crossorigin="anonymous"></script>
 
-    
+
 </body>
+
 </html>

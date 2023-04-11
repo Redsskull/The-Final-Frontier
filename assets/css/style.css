@@ -198,8 +198,8 @@ section h2 {
     font-weight: 300;
     background-image: url('../images/star-background.jpg');
     margin: 0 auto;
-    padding-top: 100px;
     position: fixed;
+    padding-top: 100px;
     top: 0;
     left: 0;
     width: 100%;
@@ -260,3 +260,47 @@ footer {
     left: 0;
     right: 0;
   }
+
+  /*form*/
+
+  #contact-us {
+    font-family: 'Trispace', sans-serif;
+    font-weight: 300;
+    background-image: url('../images/star-background.jpg');
+    margin: 0 auto;
+    position: fixed;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1px;
+  }
+
+
+  #form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+
+  .form-container{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+input[type="submit"] {
+  background-color: #290304;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+
