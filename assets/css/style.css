@@ -165,13 +165,6 @@ section h2 {
   }
 
   /*footer with social medial links*/
-
-  footer {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center  
-  }
   
   .social-networks {
       text-align: center;
@@ -252,14 +245,6 @@ section h2 {
       transform: translateX(-100vw) translateY(100vh);
     }
   }
-/*footer*/
-
-footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
 
   /*form*/
 
@@ -279,12 +264,16 @@ footer {
 
 
 
-  #form-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  .form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-61%, -45%);
+    width: 50%;
+    max-width: 500px;
     color: #fff;
+    background-color: rgba(4,26,55,0.4);
+
   }
 
   form div {
@@ -299,6 +288,7 @@ footer {
 
   input {
     width: 200px;
+    height: 25px;
   }
 
 
@@ -306,11 +296,45 @@ footer {
 input[type="submit"] {
   background-color: #290304;
   color: #fff;
-  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;
 }
 
+#opening-hours{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(+67%);
+  color: #fff;
+  background-color: rgba(4,26,55,0.6);
+  padding: 10px;
+  margin: 20px;
+
+}
+
+td, th {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/*footer*/
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-25%);
+  width: 100%;
+}
+
+#contact-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-25%);
+  width: 100%;
+
+}
 
 
