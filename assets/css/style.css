@@ -28,11 +28,6 @@ h1 {
   color: white;
 }
 
-#logo {
-  float: left;
-  margin: 0 auto;
-}
-
 /* menu*/
 
 header{
@@ -40,6 +35,8 @@ header{
     width: 100%;
     justify-content: space-between;
 }
+
+
 
 .top-bar {
   list-style: none;
@@ -257,34 +254,36 @@ section h2 {
   padding: 1px;
 }
 
-
-
-.form-container {
-  position: fixed;
-  top: 50%;
-  left: 100%;
-  transform: translate(-384%, -33%);
-  max-width: 500px;
+#form-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+  height: 500px;
+  margin: 200px auto 0;
   color: #fff;
-  background-color: rgba(4, 26, 55, 0.4);
+  background-color: rgba(4, 26, 55, 0.2);
 }
 
-form div {
+#form-section table,
+#form-section form {
+  max-width: 600px;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+label{
   display: block;
-  margin-right: 10px;
 }
-
-label {
-  display: block;
-  width: 100px;
-}
-
-input {
-  width: 200px;
-  height: 25px;
-}
-
-
 
 input[type="submit"] {
   background-color: #290304;
@@ -304,24 +303,6 @@ input[type="submit"]:hover {
 input[type="submit"]:active {
   background-color: #0F2027;
   color: #F8D05D;
-}
-
-
-#opening-hours {
-  position: absolute;
-  top: 50%;
-  left: 100;
-  transform: translate(+135%, 68%);
-  color: #fff;
-  background-color: rgba(4, 26, 55, 0.6);
-  padding: 10px;
-  margin: 20px;
-}
-
-td,
-th {
-  padding: 10px;
-  border: 1px solid #ccc;
 }
 
 h3 {
@@ -346,6 +327,7 @@ footer{
     font-family: 'Trispace', sans-serif;
     font-weight: 300;
     background: linear-gradient(to right, #1b0100, #04070b);
+    position: relative;
   }
 
   #main-image {
@@ -392,6 +374,30 @@ footer{
 
   footer{
     color: #fff;
+  }
+
+  #form-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #contact-us {
+    background-color: black;
+    font-family: 'Trispace', sans-serif;
+    font-weight: 300;
+    background-image: url('../images/star-background.jpg');
+    margin: 0 auto;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1px;
+    position: relative;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    align-items: center;
   }
 
 
