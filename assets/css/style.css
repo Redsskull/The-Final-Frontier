@@ -6,6 +6,11 @@
   border: none;
 }
 
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 #index-body {
   font-family: 'Trispace', sans-serif;
@@ -167,28 +172,6 @@ section h2 {
   opacity: 1;
 }
 
-/*footer with social medial links*/
-
-.social-networks {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-
-
-}
-
-.social-links {
-  display: inline-block;
-
-}
-
-.social-networks i {
-  font-size: 160%;
-  margin: 5%, 6%;
-  padding: 100px;
-  color: #9e90b8;
-}
-
 /*About us body*/
 
 #about-us {
@@ -335,37 +318,23 @@ th {
   border: 1px solid #ccc;
 }
 
-/*footer*/
-
-footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  /*transform: translateX(-25%);*/
-  width: 100%;
-}
-
-#contact-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  transform: translateX(-25%);
-  width: 100%;
-
-}
-
 h3 {
   color: #fff;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+}
+
+/*footer*/
+
+footer{
+  margin-top: auto;
+  color: #ccc;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center; 
 }
 
 /*different screen sizes media query*/
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 460px) {
 
   #index-body {
     font-family: 'Trispace', sans-serif;
@@ -395,7 +364,7 @@ h3 {
     top: 120px;
   }
   .social-networks {
-    width: 100%;
+    padding: 20px;
   
   }
   
