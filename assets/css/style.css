@@ -1,209 +1,212 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Trispace:wght@200&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
+
 #index-body {
-    font-family: 'Trispace', sans-serif;
-    font-weight: 300;
-    background: linear-gradient(to right, #1b0100, #04070b);
-    margin: 0 auto;
+  font-family: 'Trispace', sans-serif;
+  font-weight: 300;
+  background: linear-gradient(to right, #1b0100, #04070b);
+  margin: 0 auto;
 }
 
 /* heading and logo*/
 
 
 h1 {
-    text-transform: uppercase;
-    color: white;
+  text-transform: uppercase;
+  color: white;
 }
 
 #logo {
-    float: left;
-    margin: 0 auto;
+  float: left;
+  margin: 0 auto;
 }
 
 
 /* menu*/
 
 ul {
-    float: right;
-    list-style: none;
-    color: white;
-    font-weight: bold;
+  float: right;
+  list-style: none;
+  color: white;
+  font-weight: bold;
 
 }
 
 li {
-    float: left;
-    margin-right: 30px;
-    padding-top: 10px;
+  float: left;
+  margin-right: 30px;
+  padding-top: 10px;
 
 }
 
 li>a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 20px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
 }
 
 .border:hover {
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 
 /* main image and cover text */
 
 #main-image {
-    height: 550px;
-    width: 100%;
-    background: url('../images/universelogo.jpg') no-repeat top center;
+  height: 550px;
+  width: 100%;
+  background: url('../images/universelogo.jpg') no-repeat top center;
 }
 
 #cover-text {
-    color: black;
+  color: black;
 }
 
 #main-text {
-    font-size: 130%;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 4px;
+  font-size: 130%;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 4px;
 
-    width: 300px;
-    height: 200px;
-
-
-    padding-left: 10px;
+  width: 300px;
+  height: 200px;
 
 
-    right: 150px;
-    top: 270px;
+  padding-left: 10px;
 
-    position: absolute;
+
+  right: 150px;
+  top: 270px;
+
+  position: absolute;
 }
 
 /* main pictures and text of stars*/
 
 #pistol-container {
-    background: url('../images/pistol-star.webp') no-repeat center;
-    height: 400px;
-    width: 400px;
-    margin: 20px;
-    background-size: cover;
+  background: url('../images/pistol-star.webp') no-repeat center;
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  background-size: cover;
 }
 
 #antares-container {
-    background: url('../images/antares.jpg') no-repeat center;
-    height: 400px;
-    width: 400px;
-    margin: 20px;
-    background-size: cover;
+  background: url('../images/antares.jpg') no-repeat center;
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  background-size: cover;
 }
 
 #sirius-container {
-    background: url('../images/sirius.jpg') no-repeat center;
-    height: 400px;
-    width: 400px;
-    margin: 20px;
-    background-size: cover;
+  background: url('../images/sirius.jpg') no-repeat center;
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  background-size: cover;
 }
 
 #alpha-container {
-    background: url(../images/alpha.webp) no-repeat center;
-    height: 400px;
-    width: 400px;
-    margin: 20px;
-    background-size: cover;
+  background: url(../images/alpha.webp) no-repeat center;
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  background-size: cover;
 
 }
+
 /* Star pictures and hover text*/
 
 #stars {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 section h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    color: white;
-    font-family: 'Trispace', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+  font-family: 'Trispace', sans-serif;
 }
 
 .star-container {
-    position: relative;
-    margin: 10px;
-  }
+  position: relative;
+  margin: 10px;
+}
 
 
 .star-names {
-    color: white;
-    font-family: 'Roboto' sans-serif;
-    position: relative;
-    top: 5px;
-    font-size: x-large;
+  color: white;
+  font-family: 'Roboto' sans-serif;
+  position: relative;
+  top: 5px;
+  font-size: x-large;
 }
 
-  
-  .star-info {
-    color: white;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 5px;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-  }
-  
-  .star-container:hover .star-info {
-    opacity: 1;
-  }
 
-  /*footer with social medial links*/
-  
-  .social-networks {
-      text-align: center;
-  
-  
-  }
-  
-  .social-networks > li {
-      display: inline-block;
-      
-  }
-  
-  .social-networks i {
-      font-size: 160%;
-      margin: 5%, 6%;
-      padding: 100px;
-      color: #9e90b8;
-  }
+.star-info {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
 
-  /*About us body*/
+.star-container:hover .star-info {
+  opacity: 1;
+}
 
-  #about-us {
-    font-family: 'Trispace', sans-serif;
-    font-weight: 300;
-    background-image: url('../images/star-background.jpg');
-    margin: 0 auto;
-    position: fixed;
-    padding-top: 100px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1px;
+/*footer with social medial links*/
+
+.social-networks {
+  text-align: center;
+
+
+}
+
+.social-networks>li {
+  display: inline-block;
+
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 5%, 6%;
+  padding: 100px;
+  color: #9e90b8;
+}
+
+/*About us body*/
+
+#about-us {
+  font-family: 'Trispace', sans-serif;
+  font-weight: 300;
+  background-image: url('../images/star-background.jpg');
+  margin: 0 auto;
+  position: fixed;
+  padding-top: 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1px;
 }
 
 /*about us text section*/
 
 .background-text {
   font-size: 'Roboto', sans-serif;
-  background-color:rgba(4,26,55,0.7);
+  background-color: rgba(4, 26, 55, 0.7);
   display: inline-block;
   margin-top: 200px;
   margin-left: 200px;
@@ -211,95 +214,96 @@ section h2 {
   padding: 20px;
   border-radius: 60px;
 }
-  
-  .background-text h2 {
-    color: white;
-    margin-bottom: 20px;
-    margin-top:0;
-  }
-  
-  .background-text p {
-    color: white;
-    margin-bottom: 20px;
-  }
 
-  /*comet*/
-
-  .comet {
-    position: absolute;
-    top: 0;
-    right: -100px; 
-    width: 50px;
-    height: 50px;
-    background-image: url('../images/comet.png');
-    background-size: cover;
-    animation: comet 20s linear infinite;
-    z-index: -1;
-  }
-  
-  @keyframes comet {
-    80% {
-      transform: translateX(0vw) translateY(0);
-    }
-    100% {
-      transform: translateX(-100vw) translateY(100vh);
-    }
-  }
-
-  /*form*/
-
- #contact-us {
-  background-color: black;
-    font-family: 'Trispace', sans-serif;
-    font-weight: 300;
-    background-image: url('../images/star-background.jpg');
-    margin: 0 auto;
-    position: fixed;
-    padding-top: 100px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1px;
-  }
-
-
-
-  .form-container {
-    position: fixed;
-    top: 50%;
-    left: 100%;
-    transform: translate(-384%, -33%);
-    max-width: 500px;
-    color: #fff;
-    background-color: rgba(4,26,55,0.4);
+.background-text h2 {
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
-  form div {
-    display: block;
-    margin-right: 10px;
+.background-text p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/*comet*/
+
+.comet {
+  position: absolute;
+  top: 0;
+  right: -100px;
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/comet.png');
+  background-size: cover;
+  animation: comet 20s linear infinite;
+  z-index: -1;
+}
+
+@keyframes comet {
+  80% {
+    transform: translateX(0vw) translateY(0);
   }
 
-  label {
-    display: block;
-    width: 100px;
+  100% {
+    transform: translateX(-100vw) translateY(100vh);
   }
+}
 
-  input {
-    width: 200px;
-    height: 25px;
-  }
+/*form*/
+
+#contact-us {
+  background-color: black;
+  font-family: 'Trispace', sans-serif;
+  font-weight: 300;
+  background-image: url('../images/star-background.jpg');
+  margin: 0 auto;
+  position: fixed;
+  padding-top: 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1px;
+}
 
 
 
-  input[type="submit"] {
-    background-color: #290304;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    display: inline-block;
-    cursor: pointer;
-    box-shadow: 0px 0px 10px #fff;
+.form-container {
+  position: fixed;
+  top: 50%;
+  left: 100%;
+  transform: translate(-384%, -33%);
+  max-width: 500px;
+  color: #fff;
+  background-color: rgba(4, 26, 55, 0.4);
+}
+
+form div {
+  display: block;
+  margin-right: 10px;
+}
+
+label {
+  display: block;
+  width: 100px;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+}
+
+
+
+input[type="submit"] {
+  background-color: #290304;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px #fff;
 }
 
 input[type="submit"]:hover {
@@ -318,12 +322,13 @@ input[type="submit"]:active {
   left: 100;
   transform: translate(+135%, 68%);
   color: #fff;
-  background-color: rgba(4,26,55,0.6);
+  background-color: rgba(4, 26, 55, 0.6);
   padding: 10px;
   margin: 20px;
 }
 
-td, th {
+td,
+th {
   padding: 10px;
   border: 1px solid #ccc;
 }
@@ -350,8 +355,61 @@ footer {
 h3 {
   color: #fff;
   text-align: center;
-  position: absolute; 
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*different screen sizes media query*/
+
+@media only screen and (max-width: 620px) {
+
+  #index-body {
+    font-family: 'Trispace', sans-serif;
+    font-weight: 300;
+    background: linear-gradient(to right, #1b0100, #04070b);
+  }
+
+  #main-image {
+    height: 300px;
+    width: 100%;
+    background: url('../images/universelogo.jpg') no-repeat center center;
+  }
+
+ 
+
+  #cover-text {
+    color: #fff;
+  }
+
+  #main-text {
+    font-size: 130%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    width: auto;
+    height: auto;
+    right: auto;
+    top: 120px;
+  }
+  ul {
+    float: left;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+  
+  }
+  
+  li {
+    float: left;
+    margin-right: 30px;
+    padding-top: 10px;
+  
+  }
+
+  .social-networks > li {
+    flex-basis: 50%;
+  }
+  
+
 }
