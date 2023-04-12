@@ -154,7 +154,7 @@ section h2 {
 
 .star-names {
   color: white;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
   top: 5px;
   font-size: x-large;
@@ -193,7 +193,7 @@ section h2 {
 /*about us text section*/
 
 .background-text {
-  font-size: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: rgba(4, 26, 55, 0.7);
   display: inline-block;
   margin-top: 200px;
@@ -355,7 +355,6 @@ footer{
   }
   
   .comet {
-    visibility: none;
     display: none;
   }
 

@@ -47,5 +47,22 @@ The Final Frontier is a site that hopes to bring people enjoy talking, watching 
 
 ## Testing 
 
+This is my first project. As such, the first error I made was leave the README to the end. I must acknowledge this here and inform I realized this needed to be made side by side with the website I created.  in my time making the website I have learned a lot, and some of them so fast and in such a high quantity, they needed to be detailed immidiatly. With that said, I will do what I can to detail what was done. 
+
+- Tested header position and found it bunched up. used float to correct.
+- Added home page pictures and text to it. in test found them needed to be aligned correctly. used inline-block.
+- added a placeholder footer.
+- added background picture and text to the about us section. in testing found the text on top of the header. Used a div with margins to center. 
+- added table and form to the contact page. used absolute position to center.
+- in responsiveness testing, learned that float, absolute position and large margin setting makes it so nothing will ever be responsive. 
+- restyled all of the above using flexbox, leaving only the about us margin in. 
+- added media queries for the margin and some different display properties for mobile. appeared good in testing this time.
+
+## Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fredsskull.github.io%2FThe-Final-Frontier%2F)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 
