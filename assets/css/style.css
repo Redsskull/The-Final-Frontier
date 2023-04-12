@@ -10,6 +10,7 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 #index-body {
@@ -32,19 +33,25 @@ h1 {
   margin: 0 auto;
 }
 
-
 /* menu*/
 
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .top-bar {
-  float: right;
   list-style: none;
   color: white;
   font-weight: bold;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 
 }
 
 .top-links{
-  float: left;
   margin-right: 30px;
   padding-top: 10px;
 
@@ -59,7 +66,6 @@ h1 {
 .border:hover {
   border-bottom: 1px solid white;
 }
-
 
 /* main image and cover text */
 
