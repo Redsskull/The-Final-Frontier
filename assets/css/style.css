@@ -348,8 +348,6 @@ footer{
     background: url('../images/universelogo.jpg') no-repeat center center;
   }
 
- 
-
   #cover-text {
     color: #fff;
   }
@@ -361,12 +359,35 @@ footer{
     width: auto;
     height: auto;
     right: auto;
-    top: 120px;
+    top: 120px
   }
-  .social-networks {
-    padding: 20px;
-  
+
+  .background-text{
+    margin: 0;
   }
   
+  .comet {
+    visibility: none;
+    display: none;
+  }
+
+  #about-us {
+    font-family: 'Trispace', sans-serif;
+    font-weight: 300;
+    background-image: url('../images/star-background.jpg');
+    margin: 0 auto;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1px;
+    position: relative;
+  }
+
+  footer{
+    color: #fff;
+  }
+
+
 
 }
