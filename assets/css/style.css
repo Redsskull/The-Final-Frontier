@@ -6,7 +6,7 @@
   border: none;
 }
 
-body{
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,10 +30,10 @@ h1 {
 
 /* menu*/
 
-header{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 
@@ -48,7 +48,7 @@ header{
 
 }
 
-.top-links{
+.top-links {
   margin-right: 30px;
   padding-top: 10px;
 
@@ -281,7 +281,7 @@ th {
   border: 1px solid #ccc;
 }
 
-label{
+label {
   display: block;
 }
 
@@ -311,12 +311,12 @@ h3 {
 
 /*footer*/
 
-footer{
+footer {
   margin-top: auto;
   color: #ccc;
   width: 100%;
   vertical-align: middle;
-  text-align: center; 
+  text-align: center;
 }
 
 /*different screen sizes media query*/
@@ -350,10 +350,10 @@ footer{
     top: 120px
   }
 
-  .background-text{
+  .background-text {
     margin: 0;
   }
-  
+
   .comet {
     display: none;
   }
@@ -371,7 +371,7 @@ footer{
     position: relative;
   }
 
-  footer{
+  footer {
     color: #fff;
   }
 
