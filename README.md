@@ -68,6 +68,10 @@ This is my first project. As such, the first error I made was leave the README t
 
 - added media queries for the margin and some different display properties for mobile. Appeared good at testing this time.
 
+- After contrast critique to the form area, found that the wrong color was set in CSS. adjusted to the right one. 
+
+- While looking at the form section also found it to not validate input, added the required attribute to the elements(minus favorite star) to validate.
+
 ## Validator Testing
 
 - HTML
@@ -90,7 +94,9 @@ As a space lover, and former pilot, all I wanted was to show my passion for spac
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-The live link can be found here - https://redsskull.github.io/The-Final-Frontier/
+- in Github repository settings, the live site was deployed from the main branch.
+
+- The live link can be found here - https://redsskull.github.io/The-Final-Frontier/
 
 ## Credits
 
