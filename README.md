@@ -114,6 +114,8 @@ The live link can be found here - https://redsskull.github.io/The-Final-Frontier
 
 - the image used in "comet" was made by https://www.linkedin.com/in/anouk-wilbrink-043bb0198/
 
+- favicon is from Pexels.com
+
 ##Special Thanks
 
 - I'd like to thank my mentor Lauren(https://www.linkedin.com/in/lauren-nicole-popich-1ab87539/) for all that you've taught me along the way. You always took the time to help me.

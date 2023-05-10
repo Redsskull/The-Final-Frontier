@@ -40,26 +40,26 @@
   <main>
     <div id=form-section>
       <div class="form-container">
-        <form>
+        <form method="post">
           <h3>Contact us on:</h3>
           <div>
             <label for="fname" class="contact">First Name:</label>
-            <input type="text" id="fname" name="fname">
+            <input type="text" id="fname" name="fname" required>
           </div>
           <div>
             <label for="lname" class="contact">Last Name:</label>
-            <input type="text" id="lname" name="lname">
+            <input type="text" id="lname" name="lname" required>
           </div>
           <div>
             <label for="email" class="contact">Your Email:</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" required>
           </div>
           <div>
-            <label for="fstar" class="contact">Favorite Star?:</label>
+            <label for="fstar" class="contact">Favorite Star?(optional):</label>
             <input type="text" id="fstar" name="fstar">
           </div>
           <div>
-            <input type="submit" id="engage" value="Engage!">
+            <input type="submit" id="engage" value="Engage!" required>
           </div>
 
         </form>
