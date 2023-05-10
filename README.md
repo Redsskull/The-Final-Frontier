@@ -56,15 +56,13 @@ This is my first project. As such, the first error I made was leave the README t
 
 - Added home page pictures and text to it. In test found them needed to be aligned correctly. Used inline-block.
 
-- added a placeholder footer.
-
-- added background picture and text to the about us section. In testing found the text on top of the header. Used a div with margins to center.
+- added background picture and text to the about us section. In testing found the text on top of the header. Used a div with margins to  ensure center. 
 
 - added table and form to the contact page. Used absolute position to center.
 
-- in responsiveness testing, learned that float, absolute position and large margin setting makes it, so nothing will ever be responsive.
+- When attempting responsive design, found that large margins on the about us section and absolute positioning on the form section caused it to never appear well on mobile. reused flexbox and flexwrap instead to position elements leaving only the about us margin in.
 
-- restyled all the above using flexbox, leaving only the about us margin in.
+- in responsiveness testing, learned that float, absolute position and large margin setting makes it very diffcult to create responsive design. Replaced floats with flexbox on the header and index.html as well. 
 
 - added media queries for the margin and some different display properties for mobile. Appeared good at testing this time.
 
@@ -72,11 +70,18 @@ This is my first project. As such, the first error I made was leave the README t
 
 - While looking at the form section also found it to not validate input, added the required attribute to the elements(minus favorite star) to validate.
 
+- The contact form also had open elements, cuasing error returns and also difficulty in styling and adding contract. the main and container div have now been closed. 
+
 ## Validator Testing
 
 - HTML
 
-- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fredsskull.github.io%2FThe-Final-Frontier%2F)
+- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fredsskull.github.io%2FThe-Final-Frontier%2Findex.html)
+
+- No errors were found in the Abous Us section when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fredsskull.github.io%2FThe-Final-Frontier%2Fabout-us.html)
+
+- No errors were found in the Contact section when passing through the offical [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fredsskull.github.io%2FThe-Final-Frontier%2Fcontact.html)
+
 
 - CSS
 
