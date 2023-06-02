@@ -141,6 +141,6 @@ I was not able to use Balsamiq well enough in the time I had. Thus, my Wireframe
 
 ## Special Thanks
 
-- I'd like to thank my mentor Lauren(https://www.linkedin.com/in/lauren-nicole-popich-1ab87539/) for all that you've taught me along the way. You always took the time to help me.
+- I'd like to thank my mentor [Lauren](https://www.linkedin.com/in/lauren-nicole-popich-1ab87539/) for all that you've taught me along the way. You always took the time to help me.
 
-- I'd like to thank my friend Bogdan(https://www.linkedin.com/in/bogdan-paul-paduraru-b49b8998/) who always took the time to help me on a personal level even understand what coding is. This senior developer stopped what he was doing to helped me not make my computer explode learning to use Git and CSS.
+- I'd like to thank my friend [Bogdan](https://www.linkedin.com/in/bogdan-paul-paduraru-b49b8998/) who always took the time to help me on a personal level even understand what coding is. This senior developer stopped what he was doing to helped me not make my computer explode learning to use Git and CSS.
