@@ -100,7 +100,8 @@ I was not able to use Balsamiq well enough in the time I had. Thus, my Wireframe
 ![Wireframe](/assets/images/Wireframe.jpg)
 
 ## User Stories
-As a space lover, and former pilot, all I wanted was to show my passion for space with the skills and talent that I had. I set out to do that to the best of my ability, and I think it turned out quite alright. 
+ - As a user, I want to fill in the contact form so that I can contact the sites administrator for more information.
+ - As a user, I want to hover of the star images so that I can learn more about each star. 
 
 ## Deployment
 
