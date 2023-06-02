@@ -20,7 +20,7 @@ The Final Frontier is a site that hopes to bring people enjoy talking, watching 
 
 - the "hero" image includes a nice picture of space with some text to make the user feel like they entered a website for those who love space as they do.
 
-![Landing Page](/assets/images/heroimage.jpg
+![Landing Page](/assets/images/heroimage.jpg)
 
  __Favorite Stars Section__
 
@@ -71,6 +71,13 @@ This is my first project. As such, the first error I made was leave the README t
 - While looking at the form section also found it to not validate input, added the required attribute to the elements(minus favorite star) to validate.
 
 - The contact form also had open elements, cuasing error returns and also difficulty in styling and adding contract. the main and container div have now been closed. 
+
+| Test | Action| Expectation | Result |
+|------|-------|-------------|--------|
+|Home page|Responsive to 320|Elements size to 320px|Works as intended|
+|Home page|Responsive to 1920|Elements size to 1920px|Works as intended|
+|Home page|Click button without data in form fields|cannot submit form|Work|
+|Nar Bar - home page|Each Nav element navigates to the correct page|That each Nav element takes the user where they want to go|Works as intended|
 
 ## Validator Testing
 
