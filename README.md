@@ -107,7 +107,11 @@ I was not able to use Balsamiq well enough in the time I had. Thus, my Wireframe
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-- in Github repository settings, the live site was deployed from the main branch.
+- in Github repository I clicked settings.
+
+- I then navigated to the pages tab, where I seleted deploy from branch. the branch selected was the "main" branch.
+
+- Click "Deploy". after a few minutes, refreshing the page should now include a link to the deployed website at the top.
 
 - The live link can be found here - https://redsskull.github.io/The-Final-Frontier/
 
@@ -135,7 +139,7 @@ I was not able to use Balsamiq well enough in the time I had. Thus, my Wireframe
 
 - favicon is from Pexels.com
 
-##Special Thanks
+## Special Thanks
 
 - I'd like to thank my mentor Lauren(https://www.linkedin.com/in/lauren-nicole-popich-1ab87539/) for all that you've taught me along the way. You always took the time to help me.
 
